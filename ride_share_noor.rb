@@ -5,11 +5,11 @@
 
 # There are three main layers:
 # Trips_data (hash)
-# rides (arrays of hashes iin which each single hash represents a single ride )
+# rides (arrays of hashes in which each single hash represents a single ride )
 
 # Which layers are nested in each other?
-# In Trips_data (hash), for each driver there is rides array which represents all rides for taht driver.
-# Inside rides (array) there are hashes with information of each ride.
+# In Trips_data (hash), for each driver there is rides array which represents all rides for that driver.
+# Inside rides (array of hashes) there are hashes with information of each ride.
 
 # Which layers of data "have" within it a different layer?
 # The trips_data (hash) has rides (array) inside it.
@@ -23,7 +23,7 @@
 # Copy your list from above, and in this section
 # determine what data structure each layer should have
 # trips_data (hashes)
-# rides (arrays)
+# rides (arrays of hashes)
 # each single ride has its own hash
 ########################################################
 # Step 3: Make the data structure!
